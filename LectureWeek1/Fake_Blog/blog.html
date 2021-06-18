@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Short blog, functioning as an HTML excercise in order to familiarize oneself with how to construct an HTML file through a blog.">
+    <title>Jonathan's Blog</title>
+</head>
+<body>
+    <h1>Seung (Jonathan) Park</h1>
+    <img src="jon_face.jpg" alt="My face" width="300" height=300>
+    <p>Hello, there! My name is Seung Park, but call me Jonathan. I am currently a student at Coding Dojo and learning about HTML. This blog is intended to be both practice and an example for my current HTML skills. There is no CSS to this blog yet. I will return to this blog and style it up with CSS to make it look nice.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Personal Project Goals</th>
+                <th>Completed?</th>
+                <th>In Development?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Standalone Game</td>
+                <td>No</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Web Game</td>
+                <td>No</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Character Data Table</td>
+                <td>No</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Self Introduction Website</td>
+                <td>No</td>
+                <td>Yes</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <p>List of my favorite games</p>
+        <li>Overwatch</li>
+        <li>Omori</li>
+        <li>Spelunky 2</li>
+        <li>Hades</li>
+    </ul>
+
+    <a href="https://imgur.com/a/XQj7K3i">Click here for an unncessary image of a pikachu holding a banana!</a>
+
+    <div>
+        <form action="process.php" method="php">
+            <p>Leave a comment!</p>
+            <input type="text" id="comment" name="comment">
+
+            <label for="anon_comment">I would like to remain anonymous.</label>
+            <input type="checkbox" id="anon_comment" name="anon_comment" value="anon">
+
+            <p>Would you like to receive notifications from replies?</p>
+            <label for="notif_yes">Yes</label>
+            <input type="radio" id="notif_yes" name="notif" value="notif_yes">
+            <label for="notif_no">No</label>
+            <input type="radio" id="notif_no" name="notif" value="notif_no">
+
+            <p>Please select the best form of contact.</p>
+            <select name="contact_type">
+                <option value="email">Email</option>
+                <option value="text">Text</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
